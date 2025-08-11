@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página básica con CSS</title>
+  <meta name="description" content="Ejemplo de página básica con HTML y CSS" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">YC</div>
+        <div>
+          <div style="font-weight:800; font-size:18px;">Mi Página</div>
+          <div class="muted" style="font-size:13px;">Ejemplo básico · HTML + CSS</div>
+        </div>
+      </div>
+
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div>
+          <h1 id="hero-title">Bienvenido a tu página básica</h1>
+          <p>Este es un ejemplo sencillo de cómo estructurar una página con HTML y CSS. Es responsiva, ligera y fácil de adaptar a tus necesidades.</p>
+          <a class="cta" href="#servicios">Ver servicios</a>
+        </div>
+
+        <aside class="card" aria-label="Información rápida">
+          <h3>Info rápida</h3>
+          <p class="muted">Diseñada para aprender y reutilizar. Incluye header, grid de tarjetas y footer.</p>
+          <div style="margin-top:12px;"><span class="badge">Demo</span></div>
+        </aside>
+      </section>
+
+      <section class="grid" id="servicios" aria-label="Servicios">
+        <article class="card-basic">
+          <h4>Servicio 1</h4>
+          <p>Descripción breve del servicio. Puedes cambiar el contenido según lo necesites.</p>
+          <a class="small-btn" href="#contacto">Pedir info</a>
+        </article>
+
+        <article class="card-basic">
+          <h4>Servicio 2</h4>
+          <p>Otra tarjeta de ejemplo con detalles y llamadas a la acción.</p>
+          <a class="small-btn" href="#contacto">Contactar</a>
+        </article>
+
+        <article class="card-basic">
+          <h4>Plantillas</h4>
+          <p>Utiliza esta plantilla como base para tus proyectos pequeños o para practicar.</p>
+          <a class="small-btn" href="#contacto">Usar plantilla</a>
+        </article>
+
+        <article class="card-basic">
+          <h4>Soporte</h4>
+          <p>Apoyo y documentación para continuar desarrollando la página.</p>
+          <a class="small-btn" href="#contacto">Soporte</a>
+        </article>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <p><strong>Contacto:</strong> ejemplo@tudominio.com · <span class="muted">Tel: +57 300 0000000</span></p>
+      <p style="margin-top:8px;">© <span id="year"></span> Mi Página. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
