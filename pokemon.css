@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+
+ul#listaPokemons {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#listaPokemons li {
+    margin: 10px 0;
+    align-items: center;
+}
+
+ul#listaPokemons li img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+ul#listaPokemons li span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
