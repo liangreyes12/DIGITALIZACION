@@ -1,0 +1,50 @@
+body{
+    background-color: #a7d0ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pantalla {
+    width: 300px;               /* Igual que .calculator */
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 12px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    color: #333;
+    margin: 20px auto;          /* Centrado horizontal */
+    box-sizing: border-box;
+    resize: none;               /* Evita que el usuario cambie el tamaño */
+}
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
