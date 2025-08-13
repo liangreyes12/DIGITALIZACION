@@ -8,8 +8,9 @@ body{
 .titulo{
     text-align: center;
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .pantalla {
